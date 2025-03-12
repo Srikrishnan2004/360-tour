@@ -50,6 +50,7 @@ const Page1 = () => {
         autoLoad
         compass
         disableKeyboardCtrl
+        // @ts-ignore
         ref={panImage}
       >
         <Pannellum.Hotspot
@@ -131,6 +132,7 @@ const Page1 = () => {
                   }}
                 />
               ) : (
+                // @ts-ignore
                 <model-viewer
                   src="https://cdn.shopify.com/3d/models/o/2b89ca013896399a/final_sports.glb"
                   alt="3D Model"
