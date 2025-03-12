@@ -16,7 +16,7 @@ import "./style.css";
 
 const Page1 = () => {
   let navigate = useNavigate();
-  const [image] = useState("https://pannellum.org/images/alma.jpg");
+  const [image] = useState("/KOL.jpg");
   const panImage = useRef(null);
 
   // Modal State
